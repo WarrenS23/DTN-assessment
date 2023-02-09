@@ -10,3 +10,23 @@ body {
   font-family: "Quicksand", sans-serif;
   height: 100%;
 }
+
+.page-container {
+  overflow-y: scroll;
+}
+
+
+.ZenQuote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.GitHubUserInfo-users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 0 ;
+}

@@ -1,0 +1,14 @@
+.users {
+    display: flex;
+}
+
+.GitHubUserInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.GitHubUserInfo-img {
+    max-width: 200px;
+}

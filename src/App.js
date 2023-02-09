@@ -6,10 +6,13 @@ import './App.css';
 
 function App() {
   return (
-    <div >
+    <div className='page-container'>
       <ZenQuote/>
+      
+      <div className='GitHubUserInfo-users'>
       <GitHubUserInfo username="WarrenS23" />
       <GitHubUserInfo username="DTN-public" />
+      </div>
       <TodoList/>
     </div>
   );

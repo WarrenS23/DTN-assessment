@@ -20,7 +20,7 @@ class ZenQuote extends Component {
         return (
             <div>
                 {this.state.isLoaded ? (
-                     <div>
+                     <div className='ZenQuote-container'>
                      <h1>
                         Always remember...
                     </h1>
